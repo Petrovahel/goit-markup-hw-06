@@ -110,8 +110,8 @@ header {
 /* Section 1*/
 
 #about-us {
-  /* width: 1128px; */
-  /*height: 104px;*/
+  width: 1128px;
+  height: 104px;
 }
 
 .about-us-item {
