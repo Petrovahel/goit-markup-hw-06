@@ -1,8 +1,7 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto" sans-serif, "Raleway" sans-serif;
   background-color: #ffffff;
   color: #434455;
-  width: 1440px;
 }
 
 a {
@@ -12,29 +11,31 @@ a {
 
 ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
 }
 
 /* Header */
 
 header {
-  height: 72px;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
+}
+
+.logo-container {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.studio-text {
+  color: #2e2f42;
 }
 
 .navigation-container {
   color: #2e2f42;
-  display: flex;
-  align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
-  width: 261px;
-  height: 24px;
 }
 
 .nav-link {
@@ -49,9 +50,17 @@ header {
   color: #404bbf;
 }
 
+.nav-link:focus {
+  color: #404bbf;
+}
+
 .nav-link:active {
   color: #404bbf;
   text-decoration: underline;
+}
+
+.contacts-container {
+  font-style: normal;
 }
 
 .contacts-link {
@@ -67,73 +76,46 @@ header {
   color: #404bbf;
 }
 
+.contacts-link:focus {
+  color: #404bbf;
+}
+
 /* Main */
 
 .hero {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
 
 .wrapped-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  width: 496px;
-  height: 120px;
+  line-height: 1.07;
 }
 
 .order_button {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
-  display: flex;
-  align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   color: #ffffff;
   text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .order_button:hover {
   background-color: #404bbf;
 }
 
-/* Section 1
-
-#about-us {
-  width: 1128px;
-  height: 104px;
-}*/
-
-.about-us-item {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 8px;
-  width: 264px;
-  height: 104px;
+.order_button:focus {
+  background-color: #404bbf;
 }
 
-.about-us-item h3 {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.about-us-item p {
+.description {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -142,51 +124,28 @@ header {
   color: #434455;
 }
 
-/* Section 2 */
-
-#contacts {
-  width: 1440px;
-  height: 732px;
+.contacts {
   background-color: #f4f4fd;
 }
 
-#contacts h2 {
+.title {
+  line-height: 1.11;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
   font-weight: 162px;
-  line-height: 1.11111;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .contacts-item {
-  display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 32px;
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #ffffff;
 }
 
-.contacts-name {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 8px;
-  width: 232px;
-  height: 56px;
-}
-
-.contacts-name h3 {
+.h3-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -194,21 +153,6 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-}
-
-.contacts-name p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #434455;
-}
-
-#portfolio {
-  width: 1128px;
-  height: 1000px;
 }
 
 #portfolio h2 {
@@ -222,11 +166,6 @@ header {
 }
 
 .portfolio-item {
-  width: 360px;
-  height: 420px;
-  border: 1px solid #e7e9fc;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #ffffff;
 }
 
@@ -248,15 +187,11 @@ header {
   color: #434455;
 }
 
-footer {
-  width: 1440px;
-  height: 312px;
-  background-color: #434455;
+.footer {
+  background-color: #2e2f42;
 }
 
-footer p {
-  width: 264px;
-  height: 72px;
+.footer-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;

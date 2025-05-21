@@ -14,35 +14,33 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="/goit-markup-hw-02/css/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
 
   <body>
     <!-- Header -->
     <header>
-      <ul id="logo-container">
-        <li>
-          <img src="images/web.svg" alt="Logo web" width="44" height="21" />
-        </li>
-        <li>
-          <img src="images/studio.svg" alt="Studio" width="71" height="21" />
-        </li>
-      </ul>
-      <!-- <a href="./index.html">WebStudio</a> -->
       <nav>
+        <a href="./index.html" class="webstudio-logo">
+          Web<span class="studio-text">Studio</span>
+        </a>
         <ul class="navigation-container">
-          <li class="nav-link"><a href="#studio">Studio</a></li>
-          <li class="nav-link"><a href="#portfolio">Portfolio</a></li>
-          <li class="nav-link"><a href="#contacts">Contacts</a></li>
+          <li><a class="nav-link" href="./index.html">Studio</a></li>
+          <li><a class="nav-link" href="">Portfolio</a></li>
+          <li><a class="nav-link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address>
-        <ul class="contacts-container">
-          <li class="contacts-link">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <address class="contacts-container">
+        <ul>
+          <li>
+            <a class="contacts-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li class="contacts-link">
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="contacts-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
@@ -50,40 +48,40 @@
 
     <!-- Main -->
     <main>
-      <!-- Hero -->
+      <!-- Section 1 -->
       <section class="hero">
         <h1 class="wrapped-title">Effective Solutions for Your Business</h1>
         <button class="order_button" type="button">Order Service</button>
       </section>
 
-      <!-- Section 1 -->
+      <!-- Section 2 -->
       <section id="about-us">
-        <h2>Section</h2>
+        <h2 class="title">Section</h2>
         <ul>
           <li class="about-us-item">
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="h3-title">Strategy</h3>
+            <p class="description">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li class="about-us-item">
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="h3-title">Punctuality</h3>
+            <p class="description">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li class="about-us-item">
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="h3-title">Diligence</h3>
+            <p class="description">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
           <li class="about-us-item">
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="h3-title">Technologies</h3>
+            <p class="description">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -91,148 +89,136 @@
         </ul>
       </section>
 
-      <!-- Section 2 -->
-      <section id="contacts">
-        <h2>Our Team</h2>
+      <!-- Section 3 -->
+      <section class="contacts">
+        <h2 class="title">Our Team</h2>
         <ul id="contacts-container">
           <li class="contacts-item">
             <img
-              src="images/guerrero_photo.jpg"
+              src="/images/guerrero_photo.jpg"
               alt="Mark Guerrero - Product Designer"
               width="264"
               height="260"
             />
-            <div class="contacts-name">
-              <h3>Mark Guerrero</h3>
-              <p>Product Designer</p>
+            <div>
+              <h3 class="h3-title">Mark Guerrero</h3>
+              <p class="description">Product Designer</p>
             </div>
           </li>
           <li class="contacts-item">
             <img
-              src="images/ford_photo.jpg"
+              src="/images/ford_photo.jpg"
               alt="Tom Ford - Frontend Developer"
               width="264"
               height="260"
             />
-            <div class="contacts-name">
-              <h3>Tom Ford</h3>
-              <p>Frontend Developer</p>
+            <div>
+              <h3 class="h3-title">Tom Ford</h3>
+              <p class="description">Frontend Developer</p>
             </div>
           </li>
           <li class="contacts-item">
             <img
-              src="images/garcia_photo.jpg"
+              src="/images/garcia_photo.jpg"
               alt="Camila Garcia - Marketing"
               width="264"
               height="260"
             />
-            <div class="contacts-name">
-              <h3>Camila Garcia</h3>
-              <p>Marketing</p>
+            <div>
+              <h3 class="h3-title">Camila Garcia</h3>
+              <p class="description">Marketing</p>
             </div>
           </li>
           <li class="contacts-item">
             <img
-              src="images/wilson_photo.jpg"
+              src="/images/wilson_photo.jpg"
               alt="Daniel Wilson - UI Designer"
               width="264"
               height="260"
             />
-            <div class="contacts-name">
-              <h3>Daniel Wilson</h3>
-              <p>UI Designer</p>
+            <div>
+              <h3 class="h3-title">Daniel Wilson</h3>
+              <p class="description">UI Designer</p>
             </div>
           </li>
         </ul>
       </section>
 
-      <!-- Section 3 -->
+      <!-- Section 4 -->
       <section id="portfolio">
-        <h2>Our Portfolio</h2>
+        <h2 class="title">Our Portfolio</h2>
         <ul>
           <li class="portfolio-item">
             <img
-              src="images/banking-app.jpg"
+              src="/images/banking-app.jpg"
               alt="Example Banking App"
               width="360"
               height="300"
             />
-            <h3>Banking App</h3>
-            <p>App</p>
+            <h3 class="h3-title">Banking App</h3>
+            <p class="description">App</p>
           </li>
           <li class="portfolio-item">
             <img
-              src="images/cashless-payment.jpg"
+              src="/images/cashless-payment.jpg"
               alt="Example Cashless Payment"
               width="360"
               height="300"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="h3-title">Cashless Payment</h3>
+            <p class="description">Marketing</p>
           </li>
           <li class="portfolio-item">
             <img
-              src="images/meditation-app.jpg"
+              src="/images/meditation-app.jpg"
               alt="Example Meditation App"
               width="360"
               height="300"
             />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="h3-title">Meditation App</h3>
+            <p class="description">App</p>
           </li>
-        </ul>
-        <ul>
           <li class="portfolio-item">
             <img
-              src="images/taxi-service.jpg"
+              src="/images/taxi-service.jpg"
               alt="Example Taxi Service"
               width="360"
               height="300"
             />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="h3-title">Taxi Service</h3>
+            <p class="description">Marketing</p>
           </li>
           <li class="portfolio-item">
             <img
-              src="images/screen-illustrations.jpg"
+              src="/images/screen-illustrations.jpg"
               alt="Example Screen Illustrations"
               width="360"
               height="300"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="h3-title">Screen Illustrations</h3>
+            <p class="description">Design</p>
           </li>
           <li class="portfolio-item">
             <img
-              src="images/online-courses.jpg"
+              src="/images/online-courses.jpg"
               alt="Example Online Courses"
               width="360"
               height="300"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="h3-title">Online Courses</h3>
+            <p class="description">Marketing</p>
           </li>
         </ul>
       </section>
     </main>
 
     <!-- Footer -->
-    <footer>
-      <ul>
-        <li>
-          <img src="images/web.svg" alt="Logo web" width="44" height="21" />
-        </li>
-        <li>
-          <img
-            src="images/studio-white.svg"
-            alt="Studio"
-            width="71"
-            height="21"
-          />
-        </li>
-      </ul>
+    <footer class="footer">
+      <a href="./index.html" class="webstudio-logo"
+        >Web<span class="studio-text">Studio</span></a
+      >
       <!-- <a href="./index.html">WebStudio</a> -->
-      <p>
+      <p class="foter-description">
         Increase the flow of customers and sales for your business with digital
         marketing &#38; growth solutions.
       </p>
