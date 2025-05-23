@@ -63,14 +63,13 @@ ul {
   font-size: 36px;
   line-height: 1.11;
   font-weight: 700;
-  line-height: 40px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
 }
 
-.h3-title {
+.about-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
