@@ -60,9 +60,9 @@ ul {
 }
 
 .title {
+  font-size: 36px;
   line-height: 1.11;
   font-weight: 700;
-  font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.02em;
   text-align: center;
@@ -139,8 +139,9 @@ ul {
 .footer-description {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 
-.footer .studio-text {
+.footer-studio-text {
   color: #f4f4fd;
 }
