@@ -22,7 +22,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none;
 }
 
 .studio-text {
@@ -65,7 +64,6 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  font-weight: 162px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -76,7 +74,6 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -126,23 +123,22 @@ ul {
 }
 
 /* Section 3 */
-.contacts {
+.our-team {
   background-color: #f4f4fd;
 }
 
-.contacts-item {
+.team-item {
   background: #ffffff;
 }
 
 /* Footer */
-.footer {
+.footer-container {
   background-color: #2e2f42;
 }
 
 .footer-description {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
 }
 
 .footer .studio-text {
