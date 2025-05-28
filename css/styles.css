@@ -64,6 +64,7 @@ header .container {
 }
 
 .webstudio-logo {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -71,7 +72,6 @@ header .container {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
   margin-right: 76px;
 }
 
@@ -327,7 +327,6 @@ footer .container {
 
 .footer-logo {
   display: inline-block;
-  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -335,6 +334,7 @@ footer .container {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-bottom: 16px;
 }
 
 .footer-description {
