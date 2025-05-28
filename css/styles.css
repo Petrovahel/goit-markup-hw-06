@@ -72,10 +72,6 @@ header .container {
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 0px;
   margin-right: 76px;
 }
 
@@ -329,7 +325,7 @@ footer .container {
   gap: 16px;
 }
 
-.footer-container .container .webstudio-logo {
+.footer-container .webstudio-logo {
   margin-bottom: 16px;
 }
 
