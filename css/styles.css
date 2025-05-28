@@ -320,7 +320,7 @@ footer .container {
   gap: 16px;
 }
 
-.footer .webstudio-logo {
+.footer-container .webstudio-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
