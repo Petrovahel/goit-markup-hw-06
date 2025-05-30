@@ -322,7 +322,6 @@ footer .container {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 16px;
 }
 
 .footer-logo {
@@ -333,9 +332,10 @@ footer .container {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-bottom: 16px;
 }
 
-a .footer-logo {
+footer a {
   display: inline-block;
 }
 
