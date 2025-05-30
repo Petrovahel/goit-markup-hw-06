@@ -326,7 +326,6 @@ footer .container {
 }
 
 .footer-logo {
-  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -334,7 +333,10 @@ footer .container {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-bottom: 16px;
+}
+
+a .footer-logo {
+  display: inline-block;
 }
 
 .footer-description {
