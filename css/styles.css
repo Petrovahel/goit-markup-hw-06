@@ -318,13 +318,6 @@ address {
   color: #f4f4fd;
 }
 
-footer .container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-
 .footer-container .webstudio-logo {
   display: inline-block;
   margin-bottom: 16px;
