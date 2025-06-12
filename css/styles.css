@@ -158,6 +158,16 @@ address {
 /* Section 1 */
 .section.make-order {
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/people-office.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 600px;
   padding: 188px 0;
   text-align: center;
   box-sizing: border-box;
@@ -241,6 +251,24 @@ address {
   flex-direction: column;
   gap: 8px;
   max-width: 264px;
+}
+
+.icon-container {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  fill: #2e2f42;
+  display: block;
 }
 
 /* Section 3 */
