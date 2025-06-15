@@ -331,7 +331,6 @@ address {
 
 .social-icon-list {
   display: flex;
-  justify-content: center;
   gap: 24px;
 }
 
