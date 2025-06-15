@@ -331,7 +331,11 @@ address {
 
 .social-icon-list {
   display: flex;
+  justify-content: center;
   gap: 24px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .social-icon-item {
@@ -430,11 +434,11 @@ footer {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .logo-container {
   margin-bottom: 16px;
+  margin-right: 120px;
 }
 
 .title-social-icons {
