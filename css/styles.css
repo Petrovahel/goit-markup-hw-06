@@ -2,7 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  width: 1440px;
 }
 
 h1,
@@ -105,7 +104,7 @@ header .container {
   color: #404bbf;
 }
 
-.nav-link::after {
+.current::after {
   content: "";
   position: absolute;
   bottom: -1px;
@@ -161,7 +160,6 @@ address {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
 }
@@ -183,7 +181,7 @@ address {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 600px;
+  margin: 0 auto;
   padding: 188px 0;
   text-align: center;
   box-sizing: border-box;
@@ -294,10 +292,6 @@ address {
   padding: 120px 0;
   text-align: center;
   box-sizing: border-box;
-}
-
-.our-team .container {
-  padding: 32px 0;
 }
 
 .team-container {
@@ -428,16 +422,20 @@ address {
 }
 
 /* Footer */
-.footer-container {
-  display: flex;
-  align-items: baseline;
+footer {
   background-color: #2e2f42;
   padding: 100px 40px;
   color: #f4f4fd;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
+}
+
 .logo-container {
-  margin-right: 120px;
+  margin-bottom: 16px;
 }
 
 .title-social-icons {
@@ -449,12 +447,7 @@ address {
   margin-bottom: 16px;
 }
 
-.social-container-foot .social-icon-list {
-  gap: 16px;
-}
-
-.social-container-foot {
-  display: flex;
+.social-icon-list {
   gap: 16px;
 }
 
@@ -466,7 +459,7 @@ address {
 .footer-description {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-top: 16px;
+  max-width: 264px;
 }
 
 .footer-studio-text {
