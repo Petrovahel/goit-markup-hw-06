@@ -430,7 +430,6 @@ footer {
 }
 
 .logo-container {
-  margin-bottom: 16px;
   margin-right: 120px;
 }
 
@@ -443,7 +442,7 @@ footer {
   margin-bottom: 16px;
 }
 
-.footer .social-icon-list {
+.social-container-foot .social-icon-list {
   gap: 16px;
 }
 
