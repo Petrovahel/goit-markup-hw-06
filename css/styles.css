@@ -301,6 +301,7 @@ address {
   text-align: center;
   margin: 0;
   list-style: none;
+  gap: 24px;
 }
 
 .name-position {
@@ -372,7 +373,6 @@ address {
   gap: 24px;
   row-gap: 48px;
   padding: 0;
-  text-align: center;
   margin: 0;
   list-style: none;
 }
@@ -420,7 +420,7 @@ address {
 /* Footer */
 footer {
   background-color: #2e2f42;
-  padding: 100px 40px;
+  padding: 100px 0px;
   color: #f4f4fd;
 }
 
@@ -431,6 +431,10 @@ footer {
 
 .logo-container {
   margin-right: 120px;
+}
+
+.webstudio-logo {
+  margin-bottom: 16px;
 }
 
 .title-social-icons {
