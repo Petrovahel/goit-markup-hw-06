@@ -696,7 +696,7 @@ footer {
   color: #4d5ae5;
 }
 
-.checkbox-input:checked + .form-agreement .class-span {
+.checkbox-input:checked ~ .form-agreement .class-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
