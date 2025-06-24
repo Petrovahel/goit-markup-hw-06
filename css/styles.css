@@ -631,7 +631,7 @@ footer {
   border-color: #4d5ae5;
 }
 
-.input-wrapper:focus .input-icon {
+.input-wrapper:focus + .input-icon {
   fill: #4d5ae5;
 }
 
