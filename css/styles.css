@@ -482,7 +482,7 @@ footer {
   background-color: transparent;
   color: #ffffff;
   font-size: 12px;
-  line-height: 2px;
+  line-height: 2;
   letter-spacing: 0.04em;
   width: 264px;
   height: 40px;
@@ -528,7 +528,6 @@ footer {
 /* Overlay */
 
 .modal-overlay {
-  display: none;
   top: 0;
   left: 0;
   position: fixed;
@@ -544,7 +543,7 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 408px;
+  width: 408px;
   min-height: 584px;
   background: #fcfcfc;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -572,7 +571,10 @@ footer {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-button:hover,
+.close-button:hover {
+  background-color: #404bbf;
+  border: none;
+}
 .close-button:focus {
   background-color: #404bbf;
   border: none;
@@ -625,7 +627,7 @@ footer {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-wrapper:focus + .input-icon {
+.input-wrapper:focus {
   border-color: #4d5ae5;
 }
 
