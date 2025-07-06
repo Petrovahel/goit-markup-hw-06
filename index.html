@@ -62,8 +62,8 @@
       </div>
 
       <div class="mobile-menu">
-        <button class="menu-close" aria-label="Close menu">
-          <svg width="24" height="24">
+        <button type="button" class="close-button">
+          <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
@@ -76,14 +76,44 @@
 
         <ul class="contacts-container">
           <li>
+            <a class="contacts-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li>
             <a class="contacts-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a class="contacts-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
+        </ul>
+        <ul class="social-icon-list">
+          <li class="social-icon-item">
+            <a class="social-link" href="" aria-label="Instagram">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-icon-item">
+            <a class="social-link" href="" aria-label="Twitter">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-icon-item">
+            <a class="social-link" href="" aria-label="Facebook">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-icon-item">
+            <a class="social-link" href="" aria-label="Linkedin">
+              <svg class="social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
           </li>
         </ul>
       </div>
@@ -163,7 +193,11 @@
           <ul class="team-container">
             <li class="team-item">
               <img
-                src="./images/guerrero_photo.jpg"
+                src="./images/guerrero-photo.jpg"
+                srcset="
+                  ./images/guerrero-photo.jpg    1x,
+                  ./images/guerrero-photo-2x.jpg 2x
+                "
                 alt="Mark Guerrero - Product Designer"
                 width="264"
                 height="260"
@@ -205,7 +239,11 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/ford_photo.jpg"
+                src="./images/ford-photo.jpg"
+                srcset="
+                  ./images/ford-photo.jpg    1x,
+                  ./images/ford-photo-2x.jpg 2x
+                "
                 alt="Tom Ford - Frontend Developer"
                 width="264"
                 height="260"
@@ -247,7 +285,11 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/garcia_photo.jpg"
+                src="./images/garcia-photo.jpg"
+                srcset="
+                  ./images/garcia-photo.jpg    1x,
+                  ./images/garcia-photo-2x.jpg 2x
+                "
                 alt="Camila Garcia - Marketing"
                 width="264"
                 height="260"
@@ -289,7 +331,11 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/wilson_photo.jpg"
+                src="./images/wilson-photo.jpg"
+                srcset="
+                  ./images/wilson-photo.jpg    1x,
+                  ./images/wilson-photo-2x.jpg 2x
+                "
                 alt="Daniel Wilson - UI Designer"
                 width="264"
                 height="260"
@@ -342,6 +388,10 @@
               <div class="image-container">
                 <img
                   src="./images/banking-app.jpg"
+                  srcset="
+                    ./images/banking-app.jpg    1x,
+                    ./images/banking-app-2x.jpg 2x
+                  "
                   alt="Example Banking App"
                   width="360"
                   height="300"
@@ -361,6 +411,10 @@
               <div class="image-container">
                 <img
                   src="./images/cashless-payment.jpg"
+                  srcset="
+                    ./images/cashless-payment.jpg    1x,
+                    ./images/cashless-payment-2x.jpg 2x
+                  "
                   alt="Example Cashless Payment"
                   width="360"
                   height="300"
@@ -380,6 +434,10 @@
               <div class="image-container">
                 <img
                   src="./images/meditation-app.jpg"
+                  srcset="
+                    ./images/meditation-app.jpg    1x,
+                    ./images/meditation-app-2x.jpg 2x
+                  "
                   alt="Example Meditation App"
                   width="360"
                   height="300"
@@ -399,6 +457,10 @@
               <div class="image-container">
                 <img
                   src="./images/taxi-service.jpg"
+                  srcset="
+                    ./images/taxi-service.jpg    1x,
+                    ./images/taxi-service-2x.jpg 2x
+                  "
                   alt="Example Taxi Service"
                   width="360"
                   height="300"
@@ -418,6 +480,10 @@
               <div class="image-container">
                 <img
                   src="./images/screen-illustrations.jpg"
+                  srcset="
+                    ./images/screen-illustrations.jpg    1x,
+                    ./images/screen-illustrations-2x.jpg 2x
+                  "
                   alt="Example Screen Illustrations"
                   width="360"
                   height="300"
@@ -437,6 +503,10 @@
               <div class="image-container">
                 <img
                   src="./images/online-courses.jpg"
+                  srcset="
+                    ./images/online-courses.jpg    1x,
+                    ./images/online-courses-2x.jpg 2x
+                  "
                   alt="Example Online Courses"
                   width="360"
                   height="300"
