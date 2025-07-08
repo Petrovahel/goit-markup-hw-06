@@ -57,7 +57,7 @@ header .container {
   display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 115;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -223,9 +223,8 @@ address {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-bottom: 48px;
+  padding-bottom: 48px;
   list-style: none;
-  padding: 0;
 }
 
 .mobile-menu .contacts-link {
@@ -558,6 +557,7 @@ address {
 footer {
   background-color: #2e2f42;
   color: #f4f4fd;
+  padding: 96px 0;
 }
 
 .footer-container {
@@ -566,14 +566,14 @@ footer {
   align-items: center;
   gap: 72px;
   text-align: center;
-  padding: 96px 16px;
+  padding: 0 16px;
 }
 
 .webstudio-logo-footer {
   display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 115;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -640,6 +640,7 @@ footer {
   min-width: 264px;
   height: 40px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
 }
 
 .subscribe-input::placeholder {
@@ -1065,18 +1066,22 @@ footer {
 
   /* footer */
   footer {
-    padding: 0 100px;
+    padding: 96px 0;
   }
 
   .footer-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     column-gap: 24px;
     row-gap: 72px;
     text-align: left;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 16px;
   }
 
   .subscribe-form {
@@ -1085,6 +1090,7 @@ footer {
     align-items: center;
     justify-content: flex-start;
     gap: 24px;
+    padding: 0;
   }
 
   .subscribe-button {
@@ -1179,7 +1185,7 @@ footer {
   }
 
   .nav-link.current::after {
-    bottom: 3px; /* або -4px, якщо треба злегка нижче */
+    bottom: 3px;
   }
   /* Main */
 
@@ -1205,8 +1211,9 @@ footer {
     width: 100%;
     text-align: center;
     box-sizing: border-box;
-    min-width: 1158px;
+    max-width: 1440px;
     padding: 188px 0;
+    margin: 0 auto;
   }
 
   .section.make-order {
@@ -1314,13 +1321,23 @@ footer {
   }
 
   /* Footer */
+  footer {
+    padding: 100px 0;
+  }
   .footer-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: nowrap;
     gap: 40px;
-    flex-wrap: wrap;
-    padding: 100px;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+  .subscribe-input {
+    min-width: 200px;
   }
 
   /* Overlay */
