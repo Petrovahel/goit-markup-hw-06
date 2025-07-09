@@ -877,7 +877,7 @@ footer {
 
 @media (min-width: 768px) {
   .container {
-    min-width: 768px;
+    max-width: 768px;
   }
 
   /*Header*/
@@ -1073,12 +1073,11 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: flex-start;
     column-gap: 24px;
     row-gap: 72px;
     text-align: left;
-    max-width: 768px;
+    max-width: 584px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 16px;
@@ -1128,6 +1127,10 @@ footer {
     padding: 120px 0;
   }
   .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
     padding: 0 156px;
   }
 
